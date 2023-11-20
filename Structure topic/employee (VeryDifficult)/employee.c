@@ -89,7 +89,7 @@ int readin(Employee *emp)
     while (1){
         printf("Enter name:\n");
         scanf("\n");
-        fgets(name, 80, stdin);
+        fgets(name, 40, stdin);
         if (p=strchr(name,'\n')) *p = '\0';
 
         if (strcmp(name, "#") == 0) {
