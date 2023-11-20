@@ -115,6 +115,35 @@ int readin(Employee *emp)
    }
    return size;
 
+   /*
+    int size=0;
+   char *p;
+   
+   while (1) {
+      printf("Enter name: \n");
+      scanf("\n");
+      fgets(emp->name, 40, stdin);  
+      if (p=strchr(emp->name,'\n')) *p = '\0';
+
+      if (strcmp(emp->name, "#")==0)
+         break;
+
+      printf("Enter tel: \n");
+      fgets(emp->telno, 40, stdin);  
+      if (p=strchr(emp->telno,'\n')) *p = '\0';
+
+      printf("Enter id: \n");
+      scanf("%d", &emp->id);
+
+      printf("Enter salary: \n");
+      scanf("%lf", &emp->salary);   
+      
+      emp++;
+      size++;
+   }
+   return size;
+   */
+
 	/*end_edit*/
 }
 int search(Employee *emp, int size, char *target)
