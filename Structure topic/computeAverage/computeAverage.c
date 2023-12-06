@@ -60,8 +60,6 @@ double average()
     
   }
 
-    // average(): 39.50
-
 
 	/*end_edit*/
 }
